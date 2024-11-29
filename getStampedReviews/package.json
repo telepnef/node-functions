@@ -1,0 +1,14 @@
+{
+  "name": "fit-scale",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx functions-framework --target=getStampedReview"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}

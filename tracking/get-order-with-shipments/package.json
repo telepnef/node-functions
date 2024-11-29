@@ -1,0 +1,13 @@
+{
+  "name": "get-order-with-shipments",
+  "version": "1.0.0",
+  "type": "module",
+   "scripts": {
+     "start": "npx functions-framework --target=get-order-with-shipments"
+   },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "@google-cloud/logging": "^11.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
